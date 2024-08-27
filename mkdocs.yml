@@ -1,0 +1,21 @@
+site_name: Notas Musicais
+repo: https://github.com/leonardojacomussi/notas-musicais
+repo_name: leonardojacomussi/notas-musicais
+edit_uri: tree/main/docs
+
+theme:
+  name: material
+  language: pt-BR
+  logo: assets/logo.webp
+  favicon: assets/logo.webp
+  search: true
+  features:
+    - quick-links
+    - navigation
+    - search
+    - toc
+markdown_extensions:
+  - attr_list
+
+extra_css:
+  - stylesheets/extra.css
