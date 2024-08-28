@@ -40,7 +40,7 @@ NOTAS = 'C C# D D# E F F# G G# A A# B'.split()
 ESCALAS = {'maior': (0, 2, 4, 5, 7, 9, 11), 'menor': (0, 2, 3, 5, 7, 8, 10)}
 
 
-def escalas(
+def escala(
     tonica: Tuple[
         'C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'
     ],
@@ -61,10 +61,10 @@ def escalas(
       KeyError: Caso a escala não exista ou não tenha sido implementada.
 
     Examples:
-      >>> escalas('C', 'maior')
+      >>> escala('C', 'maior')
       {'notas': ['C', 'D', 'E', 'F', 'G', 'A', 'B'], 'graus': ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII']}
 
-      >>> escalas('a', 'menor')
+      >>> escala('a', 'menor')
       {'notas': ['A', 'B', 'C', 'D', 'E', 'F', 'G'], 'graus': ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII']}
     """
     tonica = tonica.upper()
