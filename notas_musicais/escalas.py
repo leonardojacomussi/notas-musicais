@@ -68,6 +68,7 @@ def escala(
       {'notas': ['A', 'B', 'C', 'D', 'E', 'F', 'G'], 'graus': ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII']}
     """
     tonica = tonica.upper()
+    tonalidade = tonalidade.lower()
     try:
         intervalos = ESCALAS[tonalidade]
         tonica_pos = NOTAS.index(tonica)
