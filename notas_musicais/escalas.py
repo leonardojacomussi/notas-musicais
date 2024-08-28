@@ -1,5 +1,3 @@
-from typing import Tuple
-
 """
 Módulo das escalas musicais.
 
@@ -36,6 +34,9 @@ As notas estão sendo definidas em uma constante `NOTAS`. Foi optado por manter 
 
 ```
 """
+
+from typing import Tuple
+
 NOTAS = 'C C# D D# E F F# G G# A A# B'.split()
 ESCALAS = {'maior': (0, 2, 4, 5, 7, 9, 11), 'menor': (0, 2, 3, 5, 7, 8, 10)}
 

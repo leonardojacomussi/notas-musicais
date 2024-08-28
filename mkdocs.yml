@@ -1,5 +1,5 @@
 site_name: Notas Musicais
-repo: https://github.com/leonardojacomussi/notas-musicais
+repo_url: https://github.com/leonardojacomussi/notas-musicais
 repo_name: leonardojacomussi/notas-musicais
 edit_uri: tree/main/docs
 
@@ -14,14 +14,50 @@ theme:
     - navigation
     - search
     - toc
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
 markdown_extensions:
   - attr_list
+  - admonition
+  - pymdownx.tasklist
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 extra_css:
   - stylesheets/extra.css
 
 plugins:
+  - macros
   - mkdocstrings:
       handlers:
         python:
           paths: [notas_musicais]
+
+extra:
+  commands:
+    run: poetry run notas-musicais
