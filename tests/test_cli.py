@@ -41,13 +41,13 @@ def test_acorde_cli_should_contain_all_degrees(grau):
     assert grau in result.stdout
 
 
-# @mark.parametrize('grau', ['I', 'ii', 'iii', 'IV', 'V', 'vi', 'vii°'])
-# def test_campo_harmonico_cli_should_contain_all_degrees(grau):
-#     result = runner.invoke(app, ['campo-harmonico', 'C'])
-#     assert grau in result.stdout
+@mark.parametrize('grau', ['I', 'ii', 'iii', 'IV', 'V', 'vi', 'vii°'])
+def test_campo_harmonico_cli_should_contain_all_degrees(grau):
+    result = runner.invoke(app, ['campo-harmonico', 'C'])
+    assert grau in result.stdout
 
 
-# @mark.parametrize('cifra', ['C', 'Dm', 'Em', 'F', 'G', 'Am', 'B°'])
-# def test_campo_harmonico_cli_should_contain_all_chords(cifra):
-#     result = runner.invoke(app, ['campo-harmonico', 'C'])
-#     assert cifra in result.stdout
+@mark.parametrize('cifra', ['C', 'Dm', 'Em', 'F', 'G', 'Am', 'B°'])
+def test_campo_harmonico_cli_should_contain_all_chords(cifra):
+    result = runner.invoke(app, ['campo-harmonico', 'C'])
+    assert cifra in result.stdout
