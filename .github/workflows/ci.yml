@@ -1,0 +1,19 @@
+name: CI
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Install Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.9'
+    - name: Install Poetry
+      run: pip install poetry
+    - name: Install dependencies
+      run: poetry install --without docs
+    - name: Run tests
+      run: poetry run task test --cov-report=xml
