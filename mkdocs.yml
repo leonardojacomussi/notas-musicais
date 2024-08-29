@@ -8,12 +8,6 @@ theme:
   language: pt-BR
   logo: assets/logo.webp
   favicon: assets/logo.webp
-  search: true
-  features:
-    - quick-links
-    - navigation
-    - search
-    - toc
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
