@@ -47,6 +47,7 @@ extra_css:
 
 plugins:
   - macros
+  - search
   - mkdocstrings:
       handlers:
         python:
