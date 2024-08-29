@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "notas-musicais-lj"
-version = "0.1.1"
+version = "0.1.2"
 description = "Notas musicais é um CLI para ajudar na formação de escalas, acordes e campos harmônicos"
 license = "MIT"
 authors = ["Leonardo Jacomussi <leonardojacomussi@gmail.com>"]
@@ -15,7 +15,7 @@ classifiers = [
 ]
 
 [tool.poetry.urls]
-"Documentação" = "https://notas-musicais-lj.readthedocs.io/pt/latest/"
+"Documentação" = "https://notas-musicais-lj.readthedocs.io/en/latest/"
 "Código" = "https://github.com/leonardojacomussi/notas-musicais"
 "Bug Tracker" = "https://github.com/leonardojacomussi/notas-musicais/issues"
 
