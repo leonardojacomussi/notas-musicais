@@ -12,6 +12,9 @@ build:
     post_create_environment:
       - pip install poetry
       - poetry config virtualenvs.create false
+      - python -m pip install --upgrade --no-cache-dir mkdocs-material
+      - python -m pip install --upgrade --no-cache-dir mkdocs-macros-plugin
+      - python -m pip install --upgrade --no-cache-dir mkdocstrings-python
 
     post_install:
       - poetry install --only docs
