@@ -4,7 +4,7 @@
 
 Notas musicais é um CLI para ajudar na formação de escalas, acordes e campos harmônicos.
 
-Toda a aplicação é baseada em um comando chamado `notas-musicais`. Esse comando tem um subcomando relacionado a cada ação que a aplicação pode realizar. Como `escalas`, `acordes` e `campo-harmonico`.
+Toda a aplicação é baseada em um comando chamado `notas-musicais-lj`. Esse comando tem um subcomando relacionado a cada ação que a aplicação pode realizar. Como `escalas`, `acordes` e `campo-harmonico`.
 {% include "templates/cards.html" %}
 
 {% include "templates/instalacao.md" %}
@@ -163,7 +163,7 @@ As informações sobre os subcomandos podem ser acessadas usando a flag `--help`
 ```
 
 ```
- Usage: notas-musicais [OPTIONS] COMMAND [ARGS]...
+ Usage: notas-musicais-lj [OPTIONS] COMMAND [ARGS]...
 
 ╭─ Options ───────────────────────────────────────────────────────────────╮
 │ --install-completion          Install completion for the current shell. │
@@ -187,7 +187,7 @@ As informações sobre os subcomandos podem ser acessadas usando a flag `--help`
 ```
 
 ```
-Usage: notas-musicais campo-harmonico [OPTIONS] [TONICA] [TONALIDADE]
+Usage: notas-musicais-lj campo-harmonico [OPTIONS] [TONICA] [TONALIDADE]
 
 ╭─ Arguments ────────────────────────────────────────────────────────────────────────╮
 │   tonica          [TONICA]      Tônica do campo harmônico [default: c]             │

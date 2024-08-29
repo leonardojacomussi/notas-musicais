@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "notas-musicais"
+name = "notas-musicais-lj"
 version = "0.1.0"
 description = "Notas musicais é um CLI para ajudar na formação de escalas, acordes e campos harmônicos"
 license = "MIT"
@@ -20,7 +20,7 @@ classifiers = [
 "Bug Tracker" = "https://github.com/leonardojacomussi/notas-musicais/issues"
 
 [tool.poetry.scripts]
-notas-musicais = "notas_musicais.cli:app"
+notas-musicais-lj = "notas_musicais.cli:app"
 
 [tool.poetry.dependencies]
 python = "^3.9"

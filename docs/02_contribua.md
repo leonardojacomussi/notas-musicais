@@ -1,6 +1,6 @@
 # Como contribuir
 
-Obrigado por se interessar por contribuir no projeto `notas-musicais` :heart:. Nesse documento estão listadas as operações mais comuns e que você pode precisar para contribuir.
+Obrigado por se interessar por contribuir no projeto `notas-musicais-lj` :heart:. Nesse documento estão listadas as operações mais comuns e que você pode precisar para contribuir.
 
 ## Como o projeto funciona?
 
@@ -103,7 +103,7 @@ Os templates estão definidos no diretório `/docs/templates`. Em alguns casos, 
 ```yaml
 extra:
   commands:
-    run: poetry run notas-musicais
+    run: poetry run notas-musicais-lj
 ```
 
 ##### Documentação da API
@@ -150,7 +150,7 @@ poetry install
 ### Como executar o CLI
 
 ```bash
-poetry run notas-musicais [subcomando]
+poetry run notas-musicais-lj [subcomando]
 ```
 
 ### Como executar a verificação de código

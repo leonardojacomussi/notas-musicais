@@ -1,6 +1,6 @@
 # Tutorial
 
-Se você chegou até aqui, significa que quer aprender mais sobre o `notas-musicais`.
+Se você chegou até aqui, significa que quer aprender mais sobre o `notas-musicais-lj`.
 
 O objetivo desse projeto é ajudar estudantes de música ou profissionais a obter fácil acesso a escalas, formação de acordes e campos harmônicos. Onde cada um desses comandos é distribuído em um subcomando do nosso cli.
 
@@ -8,7 +8,7 @@ O objetivo desse projeto é ajudar estudantes de música ou profissionais a obte
 
 ## Os comandos
 
-O `notas-musicais` distribui cada função em um subcomando e você executar cada um deles para testar agora. O objetivo desse tutorial é explicar o básico do funcionamento da aplicação em linha de comando.
+O `notas-musicais-lj` distribui cada função em um subcomando e você executar cada um deles para testar agora. O objetivo desse tutorial é explicar o básico do funcionamento da aplicação em linha de comando.
 
 Os subcomandos são divididos em três funções até o momento: `escalas`, `acordes` e `campo-harmonico`.
 
@@ -178,10 +178,10 @@ Um exemplo de como isso se apresenta no terminal:
 
 Caso queira descobrir mais utilidades para os comandos, você pode usar a flag `--help` em todos os subcomandos.
 
-Dessa forma descobrir novas formas de usar o `notas-musicais`:
+Dessa forma descobrir novas formas de usar o `notas-musicais-lj`:
 
 ```bash
-notas-musicais [comando] --help
+notas-musicais-lj [comando] --help
 ```
 
 ## Sobre esse tutorial
