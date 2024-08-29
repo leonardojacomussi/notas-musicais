@@ -5,7 +5,7 @@
 [![Documentation Status](https://readthedocs.org/projects/notas-musicais-lj/badge/?version=latest)](https://notas-musicais-lj.readthedocs.io/en/latest/?badge=latest)
 [![CI](https://github.com/leonardojacomussi/notas-musicais/actions/workflows/ci.yml/badge.svg)](https://github.com/leonardojacomussi/notas-musicais/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/leonardojacomussi/notas-musicais/branch/main/graph/badge.svg?token=OVQQF4IQY2)](https://codecov.io/gh/leonardojacomussi/notas-musicais)
-[![PyPI version](https://badge.fury.io/py/notas-musicais.svg)](https://badge.fury.io/py/notas-musicais)
+[![PyPI version](https://badge.fury.io/py/notas-musicais-lj.svg)](https://badge.fury.io/py/notas-musicais-lj)
 
 Notas musicais é um CLI para ajudar na formação de escalas, acordes e campos harmônicos.
 
