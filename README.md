@@ -2,7 +2,7 @@
 
 # Notas musicais
 
-[![Documentation Status](https://readthedocs.org/projects/notas-musicais/badge/?version=latest)](https://notas-musicais.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/notas-musicais-lj/badge/?version=latest)](https://notas-musicais-lj.readthedocs.io/en/latest/?badge=latest)
 [![CI](https://github.com/leonardojacomussi/notas-musicais/actions/workflows/ci.yml/badge.svg)](https://github.com/leonardojacomussi/notas-musicais/actions/workflows/pipeline.yaml)
 [![codecov](https://codecov.io/gh/leonardojacomussi/notas-musicais/branch/main/graph/badge.svg?token=OVQQF4IQY2)](https://codecov.io/gh/leonardojacomussi/notas-musicais)
 [![PyPI version](https://badge.fury.io/py/notas-musicais.svg)](https://badge.fury.io/py/notas-musicais)
